@@ -11,8 +11,14 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
 
-    public static final Item ITEM_NAME = registerItem(
+    public static final Item TEST_ITEM = registerItem(
             "test_item",
+
+            new Item(new Item.Settings()),
+            ItemGroups.INGREDIENTS
+    );
+    public static final Item NOT_A_DILDO = registerItem(
+            "not_a_dildo",
 
             new Item(new Item.Settings()),
             ItemGroups.INGREDIENTS
